@@ -1,0 +1,697 @@
+/************************ 
+    Google fonts Popins
+*************************/
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+/************************ 
+    Webpage Global CSS 
+*************************/
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #484f5b;
+}
+h1,h2,h3,h4,h5,h6,p{
+    color: #484f5b;
+}
+
+
+/************************ 
+   Header section CSS
+*************************/
+.header-row{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+.header-row img{
+    cursor: pointer;
+}
+.header-menus ul{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0; 
+}
+.header-menus ul li{
+    list-style: none;
+}
+.header-menus ul li a{
+    font-size: 18px;
+    font-weight: 500;
+    transition: all .3s ease-in-out;
+}
+.header-menus ul li a:hover{
+    color: #e8cdc8;
+    border-bottom: 1px solid #e6c8c3;
+}
+
+
+/********************** 
+   Body-1 section CSS
+***********************/
+.body-1{
+    background: url(../assets/images/header-bg.png) no-repeat center top;
+    background-size: auto;
+    padding: 75px 0; 
+}
+.body-1 .hero-left{
+    padding-right: 100px; 
+}
+.body-1 .hero-right{
+    padding-left: 150px;
+    padding-right: 0;
+    float: right;
+}
+.body-1 h1{
+    font-size: 65PX;
+    font-weight: 700;   
+}
+.body-1 P{
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 50px 0; 
+}
+.body-1 button{
+    padding: 10px 25px;
+    border: none;
+    background-color: #e8cdc8;
+    border: 3px solid #e8cdc8;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484f5b;
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+}
+.body-1 button:hover{
+    background-color: transparent; 
+}
+
+
+/********************** 
+   Body-2 section CSS
+***********************/
+.body-2{
+    background: url(../assets/images/body-1-background.png) no-repeat center;
+    background-size: auto;
+}
+.body-2-content{
+    margin: 200px 0;
+    padding-right: 85px;
+}
+.body-2 h2{
+    font-size: 55PX;
+    font-weight: 700; 
+}
+.body-2 P{
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 25px;
+    margin: 50px 0; 
+}
+.body-2 button{
+    padding: 10px 25px;
+    border: none;
+    background-color: #e8cdc8;
+    border: 3px solid #e8cdc8;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484f5b;
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+}
+.body-2 button:hover{
+    
+    background-color: transparent; 
+}
+
+
+/********************** 
+   Body-3 section CSS
+***********************/
+.body-3{
+    padding: 100px 0;
+    text-align: center;
+}
+.body-3 .body-3-icon1{
+    margin-top: 5px;
+}
+.body-3 .body-3-icon2{
+    margin-top: 5px;
+}
+.body-3 .body-3-icon3{
+    margin-top: -12px;
+    margin-bottom: 13px;
+}
+.body-3 h4{
+    font-size: 34px;
+    font-weight: 700;
+    margin: 20px 0;
+}
+.body-3 p{
+    font-size: 20px;
+}
+
+
+/********************** 
+   Body-4 section CSS
+***********************/
+.body-4{
+    background: url(../assets/images/body-3-background.png) no-repeat center top;
+    background-size: auto;
+    padding: 75px 0;
+}
+.body-4 h2{
+    font-size: 55PX;
+    font-weight: 700; 
+}
+.body-4 P{
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 25px;
+    margin: 50px 0; 
+}
+.body-4 button{
+    padding: 10px 25px;
+    border: none;
+    background-color: transparent;
+    border: 3px solid #e8cdc8;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484f5b;
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+}
+.body-4 button:hover{
+    background-color: #e8cdc8; 
+}
+
+
+/********************** 
+   Body-5 section CSS
+***********************/
+.body-5{
+    background: url(../assets/images/body-4-image.png) no-repeat center top;
+    background-size: cover;
+}
+.body-5 .right-content{
+    padding-left: 150px;
+    padding-right: 0;
+}
+.body-5 h2{
+    font-size: 55PX;
+    font-weight: 700; 
+}
+.body-5 P{
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-right: 25px;
+    margin: 50px 0; 
+}
+.body-5 button{
+    padding: 10px 25px;
+    border: none;
+    background-color: transparent;
+    border: 3px solid #e8cdc8;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484f5b;
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+}
+.body-5 button:hover{
+    background-color: #e8cdc8; 
+}
+
+
+/********************** 
+   Body-6 section CSS
+***********************/
+.body-6{
+    background: url(../assets/images/body-5-background.png) no-repeat center;
+    text-align: center;
+    padding: 100px 0 107px;
+}
+.gallery-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+.gallery-heading h2{
+    font-size: 56px;
+    font-weight: 700;
+    margin: 0 0 40px;
+}
+.gallery-heading p{
+    font-size: 22px;
+    font-weight: 400;
+    padding: 0 100px;
+    letter-spacing: 0.8px;
+    line-height: 29px;
+}
+.body-6 h3{
+    margin: 20px 0;
+    font-size: 26px;
+    font-weight: 700;
+}
+.body-6 p{
+    margin: 20px;
+}
+.body-6 .gallery{
+    box-shadow: rgb(0 0 0 / 40%) 0px 0px 20px 0px;    
+    margin: 30px 0 0;
+    transition: all .3s ease-in-out;
+}
+.body-6 .gallery:hover{
+    cursor: pointer;
+    box-shadow: rgb(0 0 0 / 40%) 0px 0px 35px 0px;    
+}
+.body-6 .gallery img{
+    width: 100%;
+}
+
+
+
+/********************** 
+   Body-7 section CSS
+***********************/
+.body-7{
+    background-color: #e5ccc6;
+    padding: 120px 0;
+}
+.body-7 iframe{
+    box-shadow: rgb(0 0 0 / 40%) 0px 0px 20px 0px;  
+    width: 100%;
+}
+.body-7 h2{
+    font-size: 55PX;
+    font-weight: 700; 
+}
+.body-7 P{
+    font-size: 18px;
+    letter-spacing: .5px;
+    font-weight: 400;
+    line-height: 30px;
+    margin: 50px 0; 
+}
+.body-7 .right-content{
+    padding-left: 150px;
+    padding-right: 0;
+}
+.social-icons ul{
+    padding: 0;  
+    display: flex;
+}
+.social-icons ul li{
+    list-style: none;
+}
+.social-icons ul li a i{
+    color: #484f5b;
+    height: 35px;
+    width: 35px;   
+    margin-right: 50px;
+    transition: all .3s ease-in-out;
+}
+.social-icons ul li a i:hover{
+    color: #00acee;
+}
+
+
+/********************** 
+   Body-8 section CSS
+***********************/
+.body-8{
+    text-align: center;
+    padding: 75px 0;
+}
+.body-8 h2{
+    font-size: 55PX;
+    font-weight: 700; 
+}
+.body-8 p{
+    font-size: 18px;
+    font-weight: 400;
+    padding: 0 100px;
+}
+.input-form input{
+    font-size: 18px;
+    color: #484f5b;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 15px;
+    text-align: left;
+    border: 2px solid #e8cdc8;
+    transition: all .3s ease-in-out;
+}
+.input-form input:focus{
+    outline: 0;
+    border: 2px solid #484f5b;
+}
+.input-form textarea{
+    font-size: 18px;
+    color: #484f5b;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    margin: 20px 0;
+    padding: 20px;
+    text-align: left;
+    border: 2px solid #e8cdc8;
+    transition: all .3s ease-in-out;
+}
+.input-form textarea:focus{
+    outline: 0;
+    border: 2px solid #484f5b;
+}
+.body-8 button{
+    padding: 10px 25px;
+    background-color: #e8cdc8;
+    border: 3px solid #e8cdc8;
+    font-size: 18px;
+    font-weight: 700;
+    color: #484f5b;
+    margin-top: 30px;
+    transition: all .3s ease-in-out;
+}
+.body-8 button:hover{
+    background-color: transparent; 
+} 
+
+
+/********************** 
+   Main footer section CSS
+***********************/
+.main-footer{
+    background-color: #484f5b;
+    color: white;
+    padding: 50px 0;
+}
+.main-footer h5{
+    color: white;
+    font-size: 22px;
+    font-weight: 600;
+    margin: 14px 0;
+}
+.main-footer a{
+    color: white;
+    font-size: 14px;
+    font-weight: 300;
+    display: block;
+    letter-spacing: .5px;
+    line-height: 28px;
+    transition: all .2s ease-in-out;
+}
+.main-footer a:hover{
+    color: #e8cdc8; 
+}
+.main-footer h3{
+    font-size: 30px;
+    color: white;
+    margin: 0 0 30px;
+    font-weight: 700;
+}
+.main-footer h6{
+    color: white;
+    padding-right: 90px;
+    padding-bottom: 14px;
+    line-height: 26px;
+}
+.main-footer h3 {
+    margin: 0px 0 25px;
+}
+.main-footer p{
+    color: white;
+}
+.main-footer img{
+    margin: 20px 0;
+}
+.main-footer .social-icons ul{
+    padding: 0;  
+    display: flex;
+}
+.main-footer .social-icons ul li{
+    list-style: none;
+}
+.main-footer .social-icons ul li a i{
+    color: white;
+    margin-right: 20px;
+    transition: all .3s ease-in-out;
+}
+.main-footer .social-icons ul li a i:hover{
+    color: #e8cdc8;
+}
+
+
+
+
+
+
+
+
+
+
+/***********************
+    Mobile Responsive
+************************/
+@media (min-width: 320px) and (max-width: 576px){
+
+    .body-1 img{
+        width: 100%;
+        margin: 0 35px;
+    }
+    .body-1 {
+        padding: 0px 0;
+    }
+    .body-1 .hero-right {
+        margin: 20px 0 75px;
+        padding: 0 30px;
+    }
+    .body-1 h1 {
+        font-size: 50PX;
+    }
+    .body-1 P {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 29px;
+        margin: 20px 0;
+    }
+    .body-1 button {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .body-2{
+        background-size: cover;
+        background-position: center left;
+    }
+    .body-2-content {
+        margin: 75px 0;
+        padding: 0 30px;
+    }
+    .body-2 button {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .body-2 h2 {
+        font-size: 50PX;
+    }
+    .body-2 P {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 29px;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .body-3 {
+        padding: 50px 0;
+    }
+    .body-3 h4 {
+        font-size: 30px;
+        margin: 0 0 10px;
+    }
+    .body-3 p {
+        font-size: 17px;
+    }
+    .body-3 .body-3-icon1 {
+        margin-top: 0;
+    }
+    .body-3 .body-3-icon3 {
+        margin-top: 7px;
+        margin-bottom: 13px;
+    }
+    .body-3 .body-3-icon2 {
+        margin-top: 11px;
+    }
+    .body-3 img {
+        width: 50%;
+    }
+    .body-4 h2 {
+        font-size: 50PX;
+    }
+    .body-4 P {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 29px;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .body-4 {
+        padding: 50px 30px;
+    }
+    .body-4 button {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .body-4 img {
+        width: 100%;
+        margin: 30px 0px;
+    }
+    .body-5{
+        background-position: center right;
+        padding: 50px 0;
+    }
+    .body-5 img {
+        width: 169%;
+        margin-left: -73px;
+        margin-top: 20px;
+    }
+    .body-5 .right-content {
+        margin: 50px 0;
+        padding: 0 30px;
+    }
+    .body-5 P {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 29px;
+        margin: 20px 0;
+        padding: 0;
+    }
+    .body-5 h2 {
+        font-size: 50PX;
+    }
+    .body-5 button {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .body-6 {
+        padding: 60px 0;
+    }
+    .gallery-heading h2 {
+        font-size: 55px;
+        margin: 0px 0 20px;
+    }
+    .gallery-heading p {
+        font-size: 16px;
+        padding: 0px 0px;
+        letter-spacing: 0.8px;
+        line-height: 25px;
+    }
+    .gallery-items {
+        flex-direction: column;
+    }
+    .gallery-items {
+        width: 65%;
+        display: block;
+        margin: 0 auto;
+    }
+    .body-6 .gallery {
+        padding-bottom: 15px;
+    }
+    .body-6 h3 {
+        margin: 15px 0;
+    }
+    .body-6 p {
+        margin: 15px;
+    }
+    .body-7 {
+        padding: 75px 0;
+    }
+    .body-7 .right-content {
+        padding-left: 0;
+        padding-right: 0;
+        margin: 50px 0;
+        padding: 0 30px;
+    }
+    .body-7 h2 {
+        font-size: 50PX;
+    }
+    .body-7 P {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 29px; 
+        margin: 20px 0;
+        padding: 0;
+    }
+    .social-icons ul {
+        margin-top: 46px;
+        margin-bottom: 0;
+    }
+    .social-icons ul li a i {
+        width: 22px;
+    }
+    .body-7 iframe{
+        width: 400px;
+        height: 280px;  
+        display: block;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    .body-8 P {
+        font-size: 16px;
+        letter-spacing: 0.8px;
+        line-height: 29px; 
+        margin: 20px 0;
+        padding: 0 22px;
+    }
+    .body-8 h2 {
+        font-size: 50PX;
+        margin: 0;
+    }
+    .form-row {
+        margin: 0;
+    }
+    .body-8 button {
+        font-size: 16px;
+        margin-top: 20px;
+    }
+    .main-footer {
+        padding: 50px 18px 25px;
+    }
+    .footer-right {
+        text-align: center;
+    }
+    .footer-left {
+        text-align: center;
+    }
+    .main-footer h6 {
+        padding-right: 0px;
+        padding-bottom: 0px;
+    }
+    .main-footer .social-icons ul {
+        justify-content: center;
+        margin-top: 0px;
+        margin-bottom: 0;
+    }
+    
+}
+
