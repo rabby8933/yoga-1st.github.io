@@ -26,31 +26,25 @@ h1,h2,h3,h4,h5,h6,p{
 /************************ 
    Header section CSS
 *************************/
-.header-row{
-    display: flex;
-    text-align: center;
-    justify-content: space-between;
-    padding: 20px 0;
+.main-header{
+    margin: 10px 0;
 }
-.header-row img{
-    cursor: pointer;
+.navbar-nav{
+    margin: 20px 0;text-align: center;
 }
-.header-menus ul{
-    display: flex;
-    justify-content: space-between;
-    padding-left: 0; 
+.nav-item{
+    margin: 5px 0;
 }
-.header-menus ul li{
-    list-style: none;
-}
-.header-menus ul li a{
+.nav-link{
+    margin: 0 25px;
+    padding: 0;
+    color: #484f5b;
     font-size: 18px;
     font-weight: 500;
     transition: all .3s ease-in-out;
 }
-.header-menus ul li a:hover{
+.nav-link:hover{
     color: #e8cdc8;
-    border-bottom: 1px solid #e6c8c3;
 }
 
 
@@ -399,9 +393,9 @@ h1,h2,h3,h4,h5,h6,p{
 } 
 
 
-/********************** 
+/************************* 
    Main footer section CSS
-***********************/
+**************************/
 .main-footer{
     background-color: #484f5b;
     color: white;
@@ -465,17 +459,14 @@ h1,h2,h3,h4,h5,h6,p{
 
 
 
-
-
-
-
-
-
 /***********************
     Mobile Responsive
 ************************/
 @media (min-width: 320px) and (max-width: 576px){
 
+    .header-logo{
+        margin: 20px 0 0 20px;
+    }
     .body-1 img{
         width: 100%;
         margin: 0 35px;
@@ -571,9 +562,7 @@ h1,h2,h3,h4,h5,h6,p{
         padding: 50px 0;
     }
     .body-5 img {
-        width: 169%;
-        margin-left: -73px;
-        margin-top: 20px;
+        display: none;
     }
     .body-5 .right-content {
         margin: 50px 0;
